@@ -15,7 +15,7 @@ The data can be thought of as a time series of values in columns:
 #### Assumptions
 * TimeStamp is always for the same day and won't roll over midnight.
 * TimeStamp is increasing or same as previous tick (time gap will never be < 0).
-* Price - our currency is an integer based currency.  No decimal points.
+* Price - Currency is an integer based currency. No decimal points.
 * Price - Price is always > 0.
 
 #### Computation Example
@@ -25,16 +25,16 @@ Here is a row for a trade of 10 shares of aaa stock at a price of 12:
 
 The applicaiton will find the following on a per symbol basis:
 * Maximum time gap
-  (time gap = Amount of time that passes between consecutive trades of a symbol)
-  if only 1 trade is in the file then the gap is 0.
+(time gap = Amount of time that passes between consecutive trades of a symbol)
+if only 1 trade is in the file then the gap is 0.
 * Total Volume traded (Sum of the quantity for all trades in a symbol).
 * Max Trade Price.
-* Weighted Average Price.  Average price per unit traded not per trade.
-  Result should be truncated to whole numbers.
-  Example: the following trades
-	20 shares of aaa @ 18
-	5 shares of aaa @ 7
-	Weighted Average Price = ((20 * 18) + (5 * 7)) / (20 + 5) = 15
+* Weighted Average Price. Average price per unit traded not per trade. Result should be truncated to whole numbers.
+  
+Example: the following trades
+20 shares of aaa @ 18
+5 shares of aaa @ 7
+Weighted Average Price = ((20 * 18) + (5 * 7)) / (20 + 5) = 15
 
 #### Output
 The solution should produce a file called 'output.csv' (a comma separate file) maintaing following format:
