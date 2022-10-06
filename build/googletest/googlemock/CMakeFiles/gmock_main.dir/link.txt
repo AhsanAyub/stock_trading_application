@@ -1,0 +1,2 @@
+/Users/ahsanayub/opt/anaconda3/bin/x86_64-apple-darwin13.4.0-ar qc ../../lib/libgmock_maind.a CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+/Users/ahsanayub/opt/anaconda3/bin/x86_64-apple-darwin13.4.0-ranlib ../../lib/libgmock_maind.a

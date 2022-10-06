@@ -1,0 +1,162 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Users/ahsanayub/opt/anaconda3/bin/x86_64-apple-darwin13.4.0-clang 
+Build flags: -march=core2;-mtune=haswell;-mssse3;-ftree-vectorize;-fPIC;-fPIE;-fstack-protector-strong;-O2;-pipe
+Id flags:  
+
+The output was:
+254
+clang-4.0: error: unable to execute command: Segmentation fault: 11
+clang-4.0: error: linker command failed due to signal (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Users/ahsanayub/opt/anaconda3/bin/x86_64-apple-darwin13.4.0-clang++ 
+Build flags: -march=core2;-mtune=haswell;-mssse3;-ftree-vectorize;-fPIC;-fPIE;-fstack-protector-strong;-O2;-pipe;-stdlib=libc++;-fvisibility-inlines-hidden;-std=c++14;-fmessage-length=0
+Id flags:  
+
+The output was:
+254
+clang-4.0: error: unable to execute command: Segmentation fault: 11
+clang-4.0: error: linker command failed due to signal (use -v to see invocation)
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /Users/ahsanayub/Documents/Personal/Self Development Resources/Quantlab_v2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8f8ac/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8f8ac.dir/build.make CMakeFiles/cmTC_8f8ac.dir/build
+Building C object CMakeFiles/cmTC_8f8ac.dir/CMakeCCompilerABI.c.o
+/Users/ahsanayub/opt/anaconda3/bin/x86_64-apple-darwin13.4.0-clang   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_8f8ac.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_8f8ac.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_8f8ac.dir/CMakeCCompilerABI.c.o -c /usr/local/Cellar/cmake/3.20.0/share/cmake/Modules/CMakeCCompilerABI.c
+clang version 4.0.1 (tags/RELEASE_401/final)
+Target: x86_64-apple-darwin13.4.0
+Thread model: posix
+InstalledDir: /Users/ahsanayub/opt/anaconda3/bin
+clang-4.0: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Users/ahsanayub/opt/anaconda3/bin/clang-4.0" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -masm-verbose -munwind-tables -target-cpu core2 -target-feature +ssse3 -target-linker-version 241.9 -v -dwarf-column-info -debugger-tuning=lldb -coverage-notes-file /Users/ahsanayub/Documents/Personal/Self Development Resources/Quantlab_v2/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_8f8ac.dir/CMakeCCompilerABI.c.gcno -resource-dir /Users/ahsanayub/opt/anaconda3/bin/../lib/clang/4.0.1 -dependency-file CMakeFiles/cmTC_8f8ac.dir/CMakeCCompilerABI.c.o.d -sys-header-deps -MT CMakeFiles/cmTC_8f8ac.dir/CMakeCCompilerABI.c.o -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -O2 -fdebug-compilation-dir /Users/ahsanayub/Documents/Personal/Self Development Resources/Quantlab_v2/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fblocks -fobjc-runtime=macosx-10.15.0 -fencode-extended-block-signature -fmax-type-align=16 -fdiagnostics-show-option -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_8f8ac.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.20.0/share/cmake/Modules/CMakeCCompilerABI.c
+clang -cc1 version 4.0.1 based upon LLVM 4.0.1 default target x86_64-apple-darwin20.3.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/ahsanayub/opt/anaconda3/bin/../lib/clang/4.0.1/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_8f8ac
+/usr/local/Cellar/cmake/3.20.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f8ac.dir/link.txt --verbose=1
+/Users/ahsanayub/opt/anaconda3/bin/x86_64-apple-darwin13.4.0-clang -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -v -Wl,-v CMakeFiles/cmTC_8f8ac.dir/CMakeCCompilerABI.c.o -o cmTC_8f8ac 
+clang version 4.0.1 (tags/RELEASE_401/final)
+Target: x86_64-apple-darwin13.4.0
+Thread model: posix
+InstalledDir: /Users/ahsanayub/opt/anaconda3/bin
+ "/Users/ahsanayub/opt/anaconda3/bin/x86_64-apple-darwin13.4.0-ld" -demangle -lto_library /Users/ahsanayub/opt/anaconda3/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -pie -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_8f8ac -search_paths_first -headerpad_max_install_names -pie -headerpad_max_install_names -dead_strip_dylibs -v CMakeFiles/cmTC_8f8ac.dir/CMakeCCompilerABI.c.o -lSystem /Users/ahsanayub/opt/anaconda3/bin/../lib/clang/4.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT: ld64-274.2
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/Users/ahsanayub/opt/anaconda3/lib
+	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/
+clang-4.0: error: unable to execute command: Segmentation fault: 11
+clang-4.0: error: linker command failed due to signal (use -v to see invocation)
+make[1]: *** [cmTC_8f8ac] Error 254
+make: *** [cmTC_8f8ac/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/ahsanayub/Documents/Personal/Self Development Resources/Quantlab_v2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c0408/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c0408.dir/build.make CMakeFiles/cmTC_c0408.dir/build
+Building C object CMakeFiles/cmTC_c0408.dir/testCCompiler.c.o
+/Users/ahsanayub/opt/anaconda3/bin/x86_64-apple-darwin13.4.0-clang   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -MD -MT CMakeFiles/cmTC_c0408.dir/testCCompiler.c.o -MF CMakeFiles/cmTC_c0408.dir/testCCompiler.c.o.d -o CMakeFiles/cmTC_c0408.dir/testCCompiler.c.o -c "/Users/ahsanayub/Documents/Personal/Self Development Resources/Quantlab_v2/build/CMakeFiles/CMakeTmp/testCCompiler.c"
+Linking C executable cmTC_c0408
+/usr/local/Cellar/cmake/3.20.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0408.dir/link.txt --verbose=1
+/Users/ahsanayub/opt/anaconda3/bin/x86_64-apple-darwin13.4.0-clang -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs  CMakeFiles/cmTC_c0408.dir/testCCompiler.c.o -o cmTC_c0408 
+clang-4.0: error: unable to execute command: Segmentation fault: 11
+clang-4.0: error: linker command failed due to signal (use -v to see invocation)
+make[1]: *** [cmTC_c0408] Error 254
+make: *** [cmTC_c0408/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Users/ahsanayub/opt/anaconda3/bin/x86_64-apple-darwin13.4.0-clang 
+Build flags: -march=core2;-mtune=haswell;-mssse3;-ftree-vectorize;-fPIC;-fPIE;-fstack-protector-strong;-O2;-pipe
+Id flags:  
+
+The output was:
+254
+clang-4.0: error: unable to execute command: Segmentation fault: 11
+clang-4.0: error: linker command failed due to signal (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Users/ahsanayub/opt/anaconda3/bin/x86_64-apple-darwin13.4.0-clang++ 
+Build flags: -march=core2;-mtune=haswell;-mssse3;-ftree-vectorize;-fPIC;-fPIE;-fstack-protector-strong;-O2;-pipe;-stdlib=libc++;-fvisibility-inlines-hidden;-std=c++14;-fmessage-length=0
+Id flags:  
+
+The output was:
+254
+clang-4.0: error: unable to execute command: Segmentation fault: 11
+clang-4.0: error: linker command failed due to signal (use -v to see invocation)
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /Users/ahsanayub/Documents/Personal/Self Development Resources/Quantlab_v2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ff65d/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ff65d.dir/build.make CMakeFiles/cmTC_ff65d.dir/build
+Building C object CMakeFiles/cmTC_ff65d.dir/CMakeCCompilerABI.c.o
+/Users/ahsanayub/opt/anaconda3/bin/x86_64-apple-darwin13.4.0-clang   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_ff65d.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_ff65d.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_ff65d.dir/CMakeCCompilerABI.c.o -c /usr/local/Cellar/cmake/3.20.0/share/cmake/Modules/CMakeCCompilerABI.c
+clang version 4.0.1 (tags/RELEASE_401/final)
+Target: x86_64-apple-darwin13.4.0
+Thread model: posix
+InstalledDir: /Users/ahsanayub/opt/anaconda3/bin
+clang-4.0: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Users/ahsanayub/opt/anaconda3/bin/clang-4.0" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -masm-verbose -munwind-tables -target-cpu core2 -target-feature +ssse3 -target-linker-version 241.9 -v -dwarf-column-info -debugger-tuning=lldb -coverage-notes-file /Users/ahsanayub/Documents/Personal/Self Development Resources/Quantlab_v2/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_ff65d.dir/CMakeCCompilerABI.c.gcno -resource-dir /Users/ahsanayub/opt/anaconda3/bin/../lib/clang/4.0.1 -dependency-file CMakeFiles/cmTC_ff65d.dir/CMakeCCompilerABI.c.o.d -sys-header-deps -MT CMakeFiles/cmTC_ff65d.dir/CMakeCCompilerABI.c.o -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -O2 -fdebug-compilation-dir /Users/ahsanayub/Documents/Personal/Self Development Resources/Quantlab_v2/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fblocks -fobjc-runtime=macosx-10.15.0 -fencode-extended-block-signature -fmax-type-align=16 -fdiagnostics-show-option -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_ff65d.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.20.0/share/cmake/Modules/CMakeCCompilerABI.c
+clang -cc1 version 4.0.1 based upon LLVM 4.0.1 default target x86_64-apple-darwin20.3.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/ahsanayub/opt/anaconda3/bin/../lib/clang/4.0.1/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_ff65d
+/usr/local/Cellar/cmake/3.20.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff65d.dir/link.txt --verbose=1
+/Users/ahsanayub/opt/anaconda3/bin/x86_64-apple-darwin13.4.0-clang -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -v -Wl,-v CMakeFiles/cmTC_ff65d.dir/CMakeCCompilerABI.c.o -o cmTC_ff65d 
+clang version 4.0.1 (tags/RELEASE_401/final)
+Target: x86_64-apple-darwin13.4.0
+Thread model: posix
+InstalledDir: /Users/ahsanayub/opt/anaconda3/bin
+ "/Users/ahsanayub/opt/anaconda3/bin/x86_64-apple-darwin13.4.0-ld" -demangle -lto_library /Users/ahsanayub/opt/anaconda3/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -pie -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_ff65d -search_paths_first -headerpad_max_install_names -pie -headerpad_max_install_names -dead_strip_dylibs -v CMakeFiles/cmTC_ff65d.dir/CMakeCCompilerABI.c.o -lSystem /Users/ahsanayub/opt/anaconda3/bin/../lib/clang/4.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT: ld64-274.2
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/Users/ahsanayub/opt/anaconda3/lib
+	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/
+clang-4.0: error: unable to execute command: Segmentation fault: 11
+clang-4.0: error: linker command failed due to signal (use -v to see invocation)
+make[1]: *** [cmTC_ff65d] Error 254
+make: *** [cmTC_ff65d/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/ahsanayub/Documents/Personal/Self Development Resources/Quantlab_v2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7a056/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7a056.dir/build.make CMakeFiles/cmTC_7a056.dir/build
+Building C object CMakeFiles/cmTC_7a056.dir/testCCompiler.c.o
+/Users/ahsanayub/opt/anaconda3/bin/x86_64-apple-darwin13.4.0-clang   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -MD -MT CMakeFiles/cmTC_7a056.dir/testCCompiler.c.o -MF CMakeFiles/cmTC_7a056.dir/testCCompiler.c.o.d -o CMakeFiles/cmTC_7a056.dir/testCCompiler.c.o -c "/Users/ahsanayub/Documents/Personal/Self Development Resources/Quantlab_v2/build/CMakeFiles/CMakeTmp/testCCompiler.c"
+Linking C executable cmTC_7a056
+/usr/local/Cellar/cmake/3.20.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a056.dir/link.txt --verbose=1
+/Users/ahsanayub/opt/anaconda3/bin/x86_64-apple-darwin13.4.0-clang -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs  CMakeFiles/cmTC_7a056.dir/testCCompiler.c.o -o cmTC_7a056 
+clang-4.0: error: unable to execute command: Segmentation fault: 11
+clang-4.0: error: linker command failed due to signal (use -v to see invocation)
+make[1]: *** [cmTC_7a056] Error 254
+make: *** [cmTC_7a056/fast] Error 2
+
+
+
